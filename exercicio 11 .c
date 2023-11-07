@@ -7,19 +7,19 @@ int main() {
     
     setlocale(LC_ALL, "portuguese");
     
-    char usuario_correto[] = "senai"; 
-    char senha_correta[] = "senai24";  
-    char usuario_digitado[50];
-    char senha_digitada[50];
+    char usuariocorreto[] = "senai"; 
+    char senhacorreta[] = "senai24";  
+    char usuariodigitado[50];
+    char senhadigitada[50];
 
     do {
         printf("Digite o nome de usuario: ");
-        scanf("%s", usuario_digitado);
+        scanf("%s", usuariodigitado);
 
         printf("Digite a senha: ");
-        scanf("%s", senha_digitada);
+        scanf("%s", senhadigitada);
 
-        if (strcmp(usuario_digitado, usuario_correto) == 0 && strcmp(senha_digitada, senha_correta) == 0) {
+        if (strcmp(usuariodigitado, usuariocorreto) == 0 && strcmp(senhadigitada, senhacorreta) == 0) {
             printf("Login bem-sucedido!\n");
             break;
         } else {
