@@ -5,7 +5,7 @@
 int main(){
   setlocale(LC_ALL,"portuguese");
 
-  int numero1, numero2, numero3;
+  int numero1, numero2;
   int maior, menor;
   
 
