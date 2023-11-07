@@ -20,7 +20,7 @@ int main() {
         scanf("%s", senhadigitada);
 
         if (strcmp(usuariodigitado, usuariocorreto) == 0 && strcmp(senhadigitada, senhacorreta) == 0) {
-            printf("Login bem-sucedido!\n");
+            printf("acesso permitido!\n");
             break;
         } else {
             printf("Login ou senha invalidos. Tente novamente.\n");
