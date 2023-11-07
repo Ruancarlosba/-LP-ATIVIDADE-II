@@ -17,7 +17,7 @@ int main(){
 
     
 
-    //Operação ternária
+    
     maior = numero1 > numero2 ? numero1 : numero2;
     
     menor = numero1 < numero2 ? numero1 : numero2;
